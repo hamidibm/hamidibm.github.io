@@ -6,8 +6,28 @@ section {
   padding-top: 5rem;
 }
 
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #00a0c6;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 footer {
   background-color: #7827fb;
+}
+
+.btn-primary {
+  background-color: #7827fb;
+  padding: 10px 50px;
+}
+
+.btn-primary:hover {
+  background-color: #481c8f;
 }
 
 .jumbotron {
